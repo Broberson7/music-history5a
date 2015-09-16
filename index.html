@@ -1,0 +1,93 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  
+  <title></title>
+  <script src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  
+</head>
+
+<body>
+  <div class="content">
+    <nav>
+      <div class= "red">
+        <ul>
+          <li>View Music |</li>
+          <li><a href ="#"> Add Music </a>|</li>
+          <li><a href ="#"> Profile </a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class= "blue">
+      <form action="form.html"method="POST">
+        <fieldset>
+          <ledgend><p>Songs</p></ledgend>
+          <input type="range" name="song-range" min="15" max="25" step="0.5" value="20.5" />
+
+        </fieldset>
+         
+        <fieldset>
+         <p>Artist:</p>
+          <select name="select">
+            <option artistoption="artist1">Beyoncé</option>
+            <option artistoption="artist2">James Blake</option> 
+            <option artistoption="artist3" selected>Sango & SPZRKT</option>
+            <option artistoption="artist4">Drake</option>
+            <option artistoption="artist5">Sohn</option>
+            <option artistoption="artist6">Odesza</option>
+            <option artistoption="artist7">Trey Songz</option>
+         </select>
+        </fieldset> 
+
+        <fieldset>
+         <p>Album:</p>
+          <select name="select">
+            <option artistoption="album1">Beyoncé</option> 
+            <option artistoption="album2" selected>Overgrown</option>
+            <option artistoption="album3">Hours Spent Loving You</option>
+            <option artistoption="album4">If You're Reading This It's Too Late</option>
+            <option artistoption="album5">Tremors</option>
+            <option artistoption="album6">In Return</option>
+            <option artistoption="album7">Trigga Reloaded</option>
+
+          </select>
+        </fieldset>
+
+        <fieldset>
+        <legend><p>Genre:</p></legend>
+            <input type="checkbox" name="rb" value="rb">R & B<br>
+            <input type="checkbox" name="em" value="em">Electronic Music<br>
+            <input type="checkbox" name="rap" value="rap">Rap
+            <input type="checkbox" name="soul" value="soul">Soul<br>
+            <input type="checkbox" name="pop" value="pop">Pop
+            <input type="checkbox" name="hiphop" value="hiphop">Hip Hop
+        </fieldset>
+        <div id="button">
+          <button form="filter">Filter</button>
+        </div>
+      </form>
+    </div>
+
+    <div class= "yellow" id="songList">
+      
+    </div>
+    <button id="fetchSongs">More</button>
+
+  <div class= "yellow" id="songList2">
+      
+    </div>
+      
+      
+
+  </div>  
+
+    <script data-main="javascripts/main" src="lib/bower_components/requirejs/require.js"></script>
+ 
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+
+    "songsList" : [
+
+            {
+        
+            "title": "Bloodflows",
+            "artist": "Sohn",
+            "album": "Tremors",
+            "genre": "Electronic Music"
+        },
+
+        {
+            "title": "Shake it Off",
+            "artist": "Taylor Swift",
+            "album": "1989",
+            "genre": "Pop"
+        }
+
+]
+}

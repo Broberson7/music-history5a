@@ -1,0 +1,34 @@
+{
+    "mySongs": [
+        {
+            "songTitle": "7/11",
+            "artist": "Beyoncé",
+            "album": "Beyoncé",
+            "genre": "Pop"
+        },
+        {
+            "songTitle": "Overgrown",
+            "artist": "James Blake",
+            "album": "Retrograde",
+            "genre": "Electronic Music"
+        },
+        {
+            "songTitle": "Motives",
+            "artist": "Sango & SPZRKT",
+            "album": "Hours Spent Loving You",
+            "genre": "Soul Music"
+        },
+        {
+            "songTitle": "Legend",
+            "artist": "Drake",
+            "album": "If You're Reading This It's Too Late",
+            "genre": "Hip Hop"
+        },
+        {
+            "songTitle": "Shake it Off",
+            "artist": "Taylor Swift",
+            "album": "1989",
+            "genre": "Pop"
+        }
+    ]
+}
