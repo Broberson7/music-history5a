@@ -1,0 +1,52 @@
+.content {
+  max-width: 900px; }
+
+nav ul {
+  list-style: none; }
+
+nav ul li {
+  display: inline-block;
+  font-family: Arial; }
+
+.red {
+  border: 2px solid;
+  background-color: #FFB4B0;
+  width: 100%;
+  margin-bottom: 20px; }
+
+.blue {
+  border: 2px solid;
+  background-color: #4DD7FA;
+  height: 320px;
+  width: 20%;
+  margin-right: 20px;
+  padding: 0px 50px 50px 10px;
+  float: left; }
+
+fieldset {
+  border: 0; }
+
+p {
+  font-family: Arial; }
+
+.song:nth-child(even) {
+  background-color: #FFF5EE; }
+
+.song:nth-child(odd) {
+  background-color: #F5FFFA; }
+
+.yellow {
+  border: 2px solid;
+  background-color: #FEFAC0;
+  height: 320px;
+  width: 63%;
+  float: left;
+  padding: 0px 50px 30px 15px; }
+
+.songNameHeader {
+  color: #785616; }
+
+h1 {
+  font-family: Arial; }
+
+/*# sourceMappingURL=main.css.map */

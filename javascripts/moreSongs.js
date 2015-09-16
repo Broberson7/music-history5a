@@ -15,9 +15,9 @@ $.ajax({
 		$("#songList").append(songs[i].artist);
 		$("#songList").append(songs[i].album);
 		$("#songList").append(songs[i].gener);
-		$("#songList").append("<button>Delete</button>")
+		$("#songList").append("<button>Delete</button>");
 		$("#songList").append('<br>');
-	};
+	}
  });	
 $("#fetchSongs").on("click", function (){
 
@@ -41,7 +41,7 @@ $("#fetchSongs").on("click", function (){
  
  	
  });
- })
+ });
  	
 
 
